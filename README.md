@@ -1,44 +1,51 @@
-# _Spotify Game_
+# Song Sleuth: A Dynamic and Engaging Music Guessing Game
 
-#### By _**Tyler Adams**_ _**Amanda Guan**_ _**Brandon Spear**_ _**Matt Melito**_
+#### Developed by Tyler Adams, Amanda Guan, Brandon Spear, and Matt Melito
 
-https://github.com/amandaguan-ag https://www.linkedin.com/in/amandaguan1/
-https://github.com/TheEPICturkey https://www.linkedin.com/in/brandon-m-spear/
-https://github.com/mjmelito https://www.linkedin.com/in/matthewmelito/
-https://github.com/skipmarcel
+Follow the team:
+- Amanda Guan: [GitHub](https://github.com/amandaguan-ag), [LinkedIn](https://www.linkedin.com/in/amandaguan1/)
+- Brandon Spear: [GitHub](https://github.com/TheEPICturkey), [LinkedIn](https://www.linkedin.com/in/brandon-m-spear/)
+- Matt Melito: [GitHub](https://github.com/mjmelito), [LinkedIn](https://www.linkedin.com/in/matthewmelito/)
+- Tyler Adams: [GitHub](https://github.com/skipmarcel)
 
-## Description
+## Overview
 
-_A song guessing application. Users Will enter information for Player1 and Player2. Application will then use SpotifyAPI to play a randomized song. Depending on how many hints were used, and if answer was cxorrect, scores will be saved to playersID._
+Welcome to Spotify Game! This interactive application enhances the music experience by challenging users to guess songs. The application generates a randomized song from Spotify's vast music library, and depending on the number of hints used and whether the answer is correct, scores will be saved to each player's ID, turning it into a competitive game.
 
-## link to Github Page
+## Key Features
 
-Not available
+- User-friendly Interface: Easy input of player information.
+- Spotify Integration: Utilizes Spotify's API to access a vast music library.
+- Scoring System: Scores based on hint usage and correct answers, fostering friendly competition.
+- Personalized User Experience: Player scores are saved to their unique ID.
 
 ## Technologies Used
 
 - JavaScript
-- Node
+- Node.js
 - HTML / CSS
 - Webpack
 
 ## Setup/Installation Requirements
 
-- Visit the Spotify developer site and create an app to get client ID and client secret
-- Clone this repository to your device.
-- In your terminal,navigate to the project directory where you have cloned this repo.
-- run npm install
-- run npm run build
-- create config.js file in the js directory
-- declear variable called client_id and client_secret as strings from the code and save as config.js.
-- Include config.js in .gitignore. Make sure to commit your .gitignore at this point, before moving on!
+1. Visit the Spotify developer site and create an app to obtain your Client ID and Client Secret.
+2. Clone this repository to your device.
+3. Navigate to the project directory in your terminal.
+4. Run `npm install`.
+5. Run `npm run build`.
+6. Create a `config.js` file in the `js` directory. Declare variables `client_id` and `client_secret` with your Spotify Client ID and Secret respectively, and save the file.
+7. Be sure to include `config.js` in your `.gitignore` file. Commit your `.gitignore` before proceeding.
 
 ## Known Bugs
 
-- No known bugs
+- Currently, no known bugs have been found.
 
 ## License
 
-_Copyright (c) 2023_
+Distributed under the MIT License. See `LICENSE` for more information.
+
+Copyright (c) 2023 
 
 ## Contact Information
+
+For any inquiries or feedback, please feel free to reach out.
